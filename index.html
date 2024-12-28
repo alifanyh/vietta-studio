@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vietta Studio</title>
+
+  <!-- Fonts  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+    rel="stylesheet" />
+  
+
+  <!-- Icons  -->
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <script src="https://kit.fontawesome.com/b356ad9dc8.js" crossorigin="anonymous"></script>
+
+
+  <!-- My Style -->
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- Navbar Start -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">vietta<span> studio</span></a>
+
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#jadwal">Jenis Kelas</a>
+      <a href="#paket">Keanggotaan</a>
+      <a href="#contact">Kontak</a>
+    </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+
+  <!-- Hero Section Start -->
+  <section class="hero" id="home">
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+          <img src="img/header-bg1.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+          <img src="img/header-bg2.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+          <img src="img/header-bg3.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+          <img src="img/header-bg4.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+          <img src="img/header-bg5.jpg" style="width:100%">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div class="overlay">
+      <div class="mid">
+        <p>Become a Healthy, Fit, Beauty, and Self Confidence!</p>
+        <h2>Give<span> Energy</span> To Your<span> Body</span></h2>
+        <div class="btn">
+          <a class="cta" href="#contact">Join Now</a>
+        </div>
+      </div>
+    </div>
+  
+    </div>
+
+  </section>
+
+  <!-- Hero Section End -->
+
+
+
+  <!-- About Section Start -->
+  <section id="about" class="about">
+    <h2><span>Tentang</span> Kami</h2>
+
+    <div class="row">
+      <div class="container">
+        <div class="card">
+          <div class="imgBx">
+            <img src="img/tentang-kami/profile1.jpg">
+          </div>
+          <div class="content-profile">
+            <h2>Savitrie</h2>
+            <p>Aerobic Instructor,
+              Zumba Instructor (ZIN),
+              PoundPro,
+              Shimmers</p>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgBx">
+            <img src="img/tentang-kami/profile2.jpg">
+          </div>
+          <div class="content-profile">
+            <h2>Devi Gabriella</h2>
+            <p>Aerobic Instructor,
+              Zumba Instructor (ZIN),
+              PoundPro,
+              Shimmers</p>
+          </div>
+        </div>
+
+        <div class="content">
+          <h3>VIETTA STUDIO</h3>
+          <p>Berdiri sejak 2019, kami adalah sanggar senam khusus wanita yang menawarkan beragam pelatihan senam seperti
+            Aerobik, Zumba, Pound Fit, Line Dance dan BFD (Belly Fit Dance).
+            Di Vietta Studio, Anda akan dipandu oleh dua instruktur berpengalaman dan bersertifikat.</p>
+          <br><p>Bersama-sama, kami bertekad untuk memberikan pengalaman senam yang penuh inspirasi, interaktif, dan
+            menyenangkan bagi setiap individu yang tergabung bersama kami.</p><br>
+        </div>
+      </div>
+
+  </section>
+
+  <!-- About Section End -->
+
+  <!-- Jenis Section Start -->
+  <div class="container" id="jadwal">
+
+    <h2><span>Jenis</span> Kelas</h2>
+
+    <div class="products-container">
+
+      <div class="product" data-name="p-1">
+        <img src="img/jadwal/aerobic.jpg" alt="">
+        <h3>AEROBIC</h3>
+      </div>
+
+      <div class="product" data-name="p-2">
+        <img src="img/jadwal/zumba.jpg" alt="">
+        <h3>ZUMBA</h3>
+      </div>
+
+      <div class="product" data-name="p-3">
+        <img src="img/jadwal/poundfit.jpg" alt="">
+        <h3>POUND FIT</h3>
+      </div>
+
+      <div class="product" data-name="p-4">
+        <img src="img/jadwal/linedance.jpg" alt="">
+        <h3>LINE DANCE</h3>
+      </div>
+
+      <div class="product" data-name="p-5">
+        <img src="img/jadwal/bfd.jpg" alt="">
+        <h3>BELLY FIT DANCE</h3>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="products-preview">
+
+    <div class="preview" data-target="p-1">
+      <i class="fas fa-times"></i>
+      <img src="img/jadwal/aerobic.jpg" alt="">
+      <h3>AEROBIC</h3>
+      <p>Senam aerobik adalah latihan fisik berirama dengan intensitas sedang hingga tinggi yang bertujuan 
+        meningkatkan kebugaran kardiovaskular. Dilakukan secara individu atau berkelompok dengan iringan musik, 
+        latihan ini bertujuan meningkatkan kekuatan, daya tahan, fleksibilitas, dan kesehatan secara keseluruhan.</p>
+      <div class="time">Senin & Kamis 08:00 WIB</div>
+      <div class="time">Rabu & Jumat 16:30 WIB</div>
+    </div>
+
+    <div class="preview" data-target="p-2">
+      <i class="fas fa-times"></i>
+      <img src="img/jadwal/zumba.jpg" alt="">
+      <h3>ZUMBA</h3>
+      <p>Zumba adalah senam aerobik yang menggabungkan gerakan tarian seperti salsa, flamenco, dan tarian modern 
+        dengan iringan lagu-lagu pop untuk meningkatkan mood. Manfaatnya meliputi menjaga kesehatan jantung, 
+        meningkatkan koordinasi tubuh, dan mengurangi stres.</p>
+      <div class="time">Selasa 16:30 WIB</div>
+      <div class="time">Jumat 08:00 WIB</div>
+    </div>
+
+    <div class="preview" data-target="p-3">
+      <i class="fas fa-times"></i>
+      <img src="img/jadwal/poundfit.jpg" alt="">
+      <h3>POUND FIT</h3>
+      <p>Pound fit adalah olahraga kardio menggunakan Ripstix, stik drum khusus, yang memadukan gerakan pilates, 
+        yoga, kardio, latihan kekuatan, dan menabuh drum. Manfaatnya meliputi melatih otot lengan, membakar lemak, 
+        meningkatkan fokus, dan melatih gerakan conditioning.</p>
+      <div class="time">Rabu & Sabtu 08:00 & 09:15 WIB</div>
+      <div class="time">Senin 15:30 & 16:30 WIB</div>
+    </div>
+
+    <div class="preview" data-target="p-4">
+      <i class="fas fa-times"></i>
+      <img src="img/jadwal/linedance.jpg" alt="">
+      <h3>LINE DANCE</h3>
+      <p>Line Dance adalah olahraga dansa dengan langkah koreografi terstruktur, diadaptasi dari cha-cha, salsa, 
+        dan poco-poco. Manfaatnya meningkatkan keseimbangan, refleks, dan kekuatan tubuh bagian bawah.</p>
+      <div class="time">Selasa 08:00 WIB</div>
+    </div>
+
+    <div class="preview" data-target="p-5">
+      <i class="fas fa-times"></i>
+      <img src="img/jadwal/bfd.jpg" alt="">
+      <h3>BELLY FIT DANCE</h3>
+      <p>Belly Fit Dance (BFD) menggabungkan tari perut, fitness, dan pembentukan otot, berfokus pada gerakan 
+        dada dan pinggul. Manfaatnya meliputi fleksibilitas, postur tubuh yang baik, serta penguatan otot perut, 
+        dan paha.</p>
+      <div class="time">Kamis 16:30 WIB</div>
+    </div>
+  </div>
+    </section>
+  <!-- Jenis Section End -->
+
+  <!-- Membership Section Start -->
+  <section class="paket" id="paket">
+    <h2><span>Keanggotaan</span> / Membership</h2>
+
+    <div class="row">
+
+      <div class="paket-card">
+        <div class="paket-icon">
+          <a href="#" class="item-detail-button2"><i data-feather="info"></i></a>
+        </div>
+        <div class="paket-image">
+          <img src="img/paket/1.jpg" alt="Paket per Visit">
+        </div>
+        <div class="paket-content">
+          <h3>Biaya per Visit</h3>
+        </div>
+      </div>
+      <div class="paket-card">
+        <div class="paket-icon">
+          <a href="#" class="item-detail-button1"><i data-feather="info"></i></a>
+        </div>
+        <div class="paket-image">
+          <img src="img/paket/1.jpg" alt="Paket per Bulan">
+        </div>
+        <div class="paket-content">
+          <h3>Biaya per Bulan</h3>
+        </div>
+      </div>
+      <div class="paket-card">
+        <div class="paket-icon">
+          <a href="#" class="item-detail-button3"><i data-feather="info"></i></a>
+        </div>
+        <div class="paket-image">
+          <img src="img/paket/1.jpg" alt="Paket Spesial">
+        </div>
+        <div class="paket-content">
+          <h3>Paket Multi Kelas</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Membership Section End -->
+
+  <!-- Contact Section Start -->
+  <section id="contact" class="contact">
+    <h2><span>Hubungi</span> Kami</h2>
+
+    <div class="row">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.423121823817!2d106.6084443742329!3d-6.2077880608069025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ffb8682eee29%3A0xbe4941d3d05432e1!2sVIETTA%20Studio!5e0!3m2!1sen!2sid!4v1684828170757!5m2!1sen!2sid"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+        <div class="buttons">
+          <div class="row">
+             <button class="whatsapp">
+            <a href="https://wa.me/6281213410900?text=Halo,%20saya%20ingin%20gabung%20kelas%20senam%20Vietta%20Studio"><span class="fab fa-whatsapp"></span></a>
+             WhatsApp</button>
+             <button class="instagram">
+             <a href="https://www.instagram.com/vitrie_mama_neizon/"><span class="fab fa-instagram"></span></a>
+             Instagram</button>
+          </div>
+       </div>
+    </div>
+  </section>
+  <!-- Contact Section End -->
+
+  <!-- Footer Start -->
+  <footer>
+    <div class="credit">
+      <p>Created by <a href="">viettastudio</a> &copy; 2023.</p>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- Modal Box Item Detail 1 start-->
+
+  <div class="modal1" id="item-detail-modal1">
+    <div class="modal-container1">
+      <a href="#" class="close-icon1"><i data-feather="x"></i></a>
+      <div class="modal-content1">
+        <img src="img/paket/1.jpg" aly="Paket per Bulan">
+        <div class="paket-content1">
+          <h3>Jenis Paket per Bulan</h3>
+          <p>Paket BFD 1x seminggu + Zumba 2x Seminggu : Rp.160.000/bulan</p>
+          <p>Paket Aerobic 4x Seminggu : Rp.160.000/bulan</p>
+          <p>Paket PoundFit 2x Seminggu : Rp.160.000/bulan</p>
+          <p>Paket PoundFit 1x Seminggu : Rp.120.000/bulan</p>
+          <p>Paket Line Dance 1x Seminggu : Rp.100.000/bulan</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Box Item Detail 1 end-->
+
+
+  <!-- Modal Box Item Detail 2 start-->
+
+  <div class="modal2" id="item-detail-modal2">
+    <div class="modal-container2">
+      <a href="#" class="close-icon2"><i data-feather="x"></i></a>
+      <div class="modal-content2">
+        <img src="img/paket/1.jpg" aly="Paket per Visit">
+        <div class="paket-content2">
+          <h3>Biaya per Visit</h3>
+          <p>Aerobic : Rp.20.000/visit</p>
+          <p>Zumba : Rp.30.000/visit</p>
+          <p>BFD : Rp.30.000/visit</p>
+          <p>Line Dance : Rp.30.000/visit</p>
+          <p>Pound Fit : Rp.40.000/visit</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Box Item Detail 2 end-->
+
+
+  <!-- Modal Box Item Detail 3 start-->
+
+  <div class="modal3" id="item-detail-modal3">
+    <div class="modal-container3">
+      <a href="#" class="close-icon3"><i data-feather="x"></i></a>
+      <div class="modal-content3">
+        <img src="img/paket/1.jpg" aly="Paket ulti ">
+        <div class="paket-content3">
+          <h3>Paket Multi Kelas</h3>
+          <p>Paket 2 Kelas : Rp.250.000/bulan</p>
+          <p>Paket 3 Kelas : Rp.300.000/bulan</p>
+          <p>Paket All Class (Aerobic, Zumba, BFD, Line Dance, PoundFit) : Rp.350.000/bulan</p>
+          <p>Paket Voucher 12x Pertemuan (Tanpa PoundFit) Rp.200.000/bulan</p>
+          <p>Paket Voucher 12x Pertemuan (Dengan PoundFit) Rp.250.000/bulan</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Box Item Detail 3 end-->
+
+  <!-- Feather Icons -->
+  <script>
+    feather.replace();
+  </script>
+
+  <!-- My Javascript -->
+  <script src="js/script.js" defer></script>
+</body>
+
+</html>
